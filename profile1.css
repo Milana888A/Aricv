@@ -1,0 +1,168 @@
+* {
+	box-sizing: border-box;
+}
+
+body , h4 ,p , hr{
+	margin: 0;
+}
+
+
+.conteiner {
+	max-width: 1500px;
+	margin: 30px auto;
+	height: 1700px;
+	background-color: #f0f0f6;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+}
+
+.leftbar {
+	width: 305px;
+	text-align: center;
+	padding: 50px 40px 25px;
+	background: #FFFFFF;
+	height: 1354px;
+}
+
+.photo {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-bottom: 31px;
+	border: 4px solid #e1e1e1 ;
+}
+
+hr {
+	border: 2px solid #F0F0F6;
+	margin-bottom: 15px;
+}
+
+.name {
+
+	font-family:'Inter'; //google font
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 123.6%;
+	color: #2B2B2B;
+	margin-bottom: 15px;
+	
+}
+
+.speciality , .InfoLanguage , .InfoSkills , .extraskiils{
+
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	text-transform: capitalize;
+	font-feature-settings: 'calt' off, 'kern' off;
+	color: #767676;
+	margin-bottom: 15px;
+}
+
+.social img{
+	margin: 5px ;
+	margin-bottom: 15px;
+}
+
+.info {
+	font-family: 'Inter';
+	height: 96px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	text-transform: capitalize;
+	font-feature-settings: 'calt' off, 'kern' off;
+	color: #000000;
+	margin-bottom: 15px;
+}
+
+.info-item {
+	margin-bottom: 9px;
+}
+
+.info-item-val {
+	float: right;
+}
+
+.info-item-key {
+	background-color: #ffb400;
+}
+
+
+
+.leftInfo , .leftLanguage {
+	width: 30%;
+	float: left;
+	text-align: left;
+
+}
+
+.leftInfo span {
+	background-color: #FFB400;
+  color: #000000;
+}
+
+.rightInfo , .rightLanguage  {
+	width: 70%;
+	float: right;
+	text-align: right;
+}
+
+.rightInfo span {
+	color: #7EB942;
+}
+
+.Language h4 {
+	text-align: left;
+}
+
+.InfoLanguage {
+	height: 192px;
+}
+.InfoSkills {
+	height: 288px;
+}
+
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #FFB400;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border: none;
+}
+
+
+.leftButtontext  {
+	width: 70%;
+	float: left;
+	text-align: center;
+}
+
+.rightButtonimg  {
+	width: 30%;
+	float: right;
+	text-align: center;
+	
+}
+
+
+.leftExtraSkiils {
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+.rightExtraSkiils {
+	width: 80%;
+	float: right;
+	text-align: left;
+	padding-left: 15px;
+}
+
+
+.extraskiils {
+	text-align: left;
+	height: 96px;
